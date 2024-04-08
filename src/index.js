@@ -9,13 +9,13 @@ function updateTime(){
     .format("hh:mm:ss [<bold>]A[</bold>]");
 
 
-  let london = document.querySelector("#london");
-  let londonDate = london.querySelector(".date");
-  let londonTime = london.querySelector(".time");
+  let tokyo = document.querySelector("#tokyo");
+  let tokyoDate = tokyo.querySelector(".date");
+  let tokyoTime = tokyo.querySelector(".time");
 
-  londonDate.innerHTML = moment().format("MMMM Do, YYYY");
-  londonTime.innerHTML = moment()
-    .tz("Europe/London")
+  tokyoDate.innerHTML = moment().format("MMMM Do, YYYY");
+  tokyoTime.innerHTML = moment()
+    .tz("Asia/Tokyo")
     .format("hh:mm:ss [<bold>]A[</bold>]");
 
 
@@ -60,3 +60,7 @@ function updateTime(){
 
   let chooseCityHere = document.querySelector("#chooseCity");
   chooseCityHere. addEventListener("change", updateCity)
+
+
+    
+    
