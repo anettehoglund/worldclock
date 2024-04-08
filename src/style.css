@@ -21,6 +21,17 @@ h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.back{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #6a665c;
+}
+
 
 select{
     color:darkgray;
@@ -32,7 +43,8 @@ select{
 }
 
 .city{
-    background-color: rgb(183, 152, 130, 0.7);
+    background-color: rgb(183, 152, 130, 0.6);
+    border-radius: 8px;
     display:flex;
     justify-content: space-between;
     margin-left: 5px;
