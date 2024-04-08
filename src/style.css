@@ -1,31 +1,46 @@
 body{
     background-color:whitesmoke;
     text-align: center;
+    font-family:;
 }
 
 .weatherContainer{
-    background-color: white;
-    max-width: 600px;
-    border: 1px solid #000;
+    background-image: url("../img/note.png");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    max-width: 400px;
+    height: 600px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 50px;
+    opacity: 0.7;
 }
+
+h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 select{
     color:darkgray;
+    background-color: whitesmoke;
     padding: 8px;
     border: 1px solid darkgray;
     width: 400px;
+    margin-bottom: 30px;
 }
 
 .city{
+    background-color: rgb(249, 249, 249, 0.3);
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h2{
     text-align: left;
+    color: #000;
     font-size: 28px;
 }
 
@@ -40,13 +55,14 @@ hr{
 }
 
 .time{
-    font-size: 40px;
+    justify-content: right;
+    font-size: 35px;
     font-weight: bold;
     margin: 20px;
 }
 
 .time bold{
-    font-size: 15px;
+    font-size: 12px;
     vertical-align: middle;
     opacity: 0.6;
 }
