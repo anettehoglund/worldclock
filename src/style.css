@@ -32,9 +32,10 @@ select{
 }
 
 .city{
-    background-color: rgb(249, 249, 249, 0.3);
+    background-color: rgb(183, 152, 130, 0.7);
     display:flex;
     justify-content: space-between;
+    margin-left: 5px;
 }
 
 h2{

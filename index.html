@@ -13,14 +13,14 @@
 
     <div class="weatherContainer">
         <h1>World clock</h1>
-    <select>
+    <select id="chooseCity">
         <option value="">Select here</option>
-        <option value="stockholm">Stockholm</option>
-        <option value="london">London</option>
-        <option value="newyork">New york</option>
-        <option value="iceland">Iceland</option>
+        <option value="Europe/Stockholm">Stockholm</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New york</option>
+        <option value="Atlantic/Reykjavik">Reykjavik</option>
     </select>
-
+        <div id="cities">
         <div class="city" id="stockholm">
             <div><h2>Stockholm 🇸🇪</h2>
             <div class="date"></div>
@@ -40,11 +40,13 @@
             <div class="time"> 10:55:30 <bold>AM</bold></div>
         </div><hr>
       <div class="city" id="iceland">
-            <div><h2>Iceland 🇮🇸</h2>
+            <div><h2>Reykjavik 🇮🇸</h2>
             <div class="date"> 10 July 2025</div>
             </div>
             <div class="time"> 10:55:30 <bold>AM</bold></div>
         </div><hr>
+
+    </div>
       
       
 
